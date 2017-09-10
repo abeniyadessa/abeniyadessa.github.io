@@ -1,0 +1,31 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286.4 123.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 16px;
+      }
+      .cls-1,
+      .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .cls-2 {
+        fill: #2b9cf2;
+      }
+      .cls-3 {
+        fill: #fff;
+      }
+      .cls-4 {
+        font-size: 50.6px;
+        fill: #9a989d;
+        stroke: #999;
+        stroke-width: 3px;
+        font-family: MyanmarText, Myanmar Text;
+        letter-spacing: 0.01em;
+      }
+    </style>
+  </defs>
+  <title>logo</title><polyline class="cls-1" points="153.64 104.08 153.64 104.08 153.64 104.08"/><path class="cls-2" d="M885.1,479.31H844.85a45.11,45.11,0,0,0-45,45v29.77a45.11,45.11,0,0,0,45,45h29.77a45.11,45.11,0,0,0,45-45v-31.7a10.29,10.29,0,0,0-6.34-9.62C898.57,506.91,902,479.31,885.1,479.31Z" transform="translate(-799.87 -477.18)"/><path class="cls-3" d="M896.17,477.18c-21.13,0-21.13,10.4-21.13,22.34a22.37,22.37,0,0,0,22.38,22.38c12.36,0,22.19-8.08,22.38-22.37,0-.38,0-.76,0-1.14Z" transform="translate(-799.87 -477.18)"/><path class="cls-1" d="M856.34,511c-9.47,23.67-10,32.1-9.94,34.15a7.24,7.24,0,0,1-.11,1.45c-4.56,26.36-1.51,27.58-1.51,27.58l27.5-.15" transform="translate(-799.87 -477.18)"/>
+  <text class="cls-4" transform="translate(152.92 85.19) scale(1.21 1)">Yalid</text><path class="cls-1" d="M823.67,511l20.58,44.56h0" transform="translate(-799.87 -477.18)"/></svg>

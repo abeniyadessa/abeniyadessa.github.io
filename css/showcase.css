@@ -1,0 +1,156 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+html {
+  height: 100%
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block
+}
+
+
+/* ==========================================================================
+   Start of custom Webflow CSS
+   ========================================================================== */
+
+body {
+  /*padding: 100px 50px;*/
+  font-family: proxima-nova, sans-serif;
+  color: #d2d2e5;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Merriweather, serif;
+  color: #282828;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 35px;
+  font-family: Montserrat, sans-serif;
+  color: #282828;
+  font-size: 25px;
+  line-height: 55px;
+  font-weight: 300;
+}
+.doodle {
+  position: relative;
+  display: block;
+  width: 500px;
+  max-width: 95%;
+  margin-right: auto;
+  margin-bottom: 90px;
+  margin-left: auto;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.d-number {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #282828;
+  font-size: 75px;
+  line-height: 0.8;
+  font-weight: 400;
+  text-align: center;
+}
+
+.d-image {
+  border-radius: 5px;
+  box-shadow: 0 10px 35px -10px rgba(40, 40, 40, .3);
+}
+
+.d-banner {
+  display: block;
+  width: 200px;
+  margin-right: auto;
+  margin-bottom: 90px;
+  margin-left: auto;
+}
+
+.d-date {
+  color: #282828;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  /*text-transform: uppercase;*/
+}
+
+@media (max-width: 991px) {
+  body {
+    /*padding: 50px;*/
+    background-position: 0px 50%;
+  }
+  p {
+    font-size: 22px;
+    line-height: 45px;
+  }
+  .d-number {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    /*padding: 35px 7.5%;*/
+  }
+  p {
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .image {
+    left: 50%;
+    top: 50%;
+  }
+  .doodle {
+    margin-bottom: 55px;
+  }
+  .d-banner {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 479px) {
+  body {
+    /*padding: 35px 5%;*/
+    background-position: 18% 50%;
+  }
+  p {
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .image {
+    left: 50%;
+    top: 50%;
+  }
+  .doodle {
+    margin-bottom: 30px;
+  }
+  .d-number {
+    font-size: 41px;
+  }
+}
