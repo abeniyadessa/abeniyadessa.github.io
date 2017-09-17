@@ -3909,13 +3909,18 @@ figure.attachment.attachment-preview figcaption.caption, figure.attachment.attac
 
 .navbar-primary .navbar-nav li a {
   color: #90959A;
-  font-size: 14px
+  font-size: 14px;
+  margin-right: 20px;
 }
 
 .navbar-primary .navbar-nav li a:hover, .navbar-primary .navbar-nav li a:active, .navbar-primary .navbar-nav li a:focus {
-  background: transparent;
-  color: #36434d
-}
+  color: #5e6971;
+  /*font-size: 14px;*/
+  /*font-weight: 700;*/
+  /*border: 2px solid #CCEFFE;*/
+  background: #f5f5f5;
+  border-radius: 15%;
+  }
 
 .navbar-primary .navbar-nav li.active a {
   font-weight: 700;
@@ -4042,7 +4047,7 @@ h1, .h1 {
 
 @media screen and (max-width: 768px) {
   .section {
-    padding: 66px 0
+    padding: 0px 0
   }
 }
 
@@ -4832,9 +4837,13 @@ body {
     border:none;
 }
 .navbar-primary .navbar-nav li .current {
-    color:  #2b9cf2;
-    font-size: 14px;
-    font-weight: 700;
+  color: #5e6971;
+  font-size: 14px;
+  font-weight: 700;
+  border: 2px solid #CCEFFE;
+  background: #ccefff;
+  border-radius: 15%;
+  /*margin-right: 20px;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -4860,7 +4869,7 @@ body {
   }
 }
 p{
-  text-align: justify;
+  /*text-align: justify;*/
 }
 /*====================================================*/
 
@@ -5053,4 +5062,14 @@ Github: http://github.com/jorgechavz
 }
 .navbar-header{
   margin-bottom: 16px;
+}
+.btn-primary {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+    border: 3px solid #007bff;
+}
+*{
+  transition: all ease-in-out 250ms;
 }
